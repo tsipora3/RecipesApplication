@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_10"
+    tools:context=".RateSpecipicRecipe">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/RateTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/font2"
+                android:gravity="center_horizontal"
+                android:text="Rate"
+                android:textSize="35dp" />
+            <TextView
+                android:id="@+id/VleveRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/font9"
+                android:text="Recipe level"
+                android:textSize="25dp"
+                android:backgroundTint="#000000" />
+            <TextView
+                android:id="@+id/VmakingTimeRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/font9"
+                android:text="Recipe making time "
+                android:textSize="25dp"
+                android:backgroundTint="#000000" />
+            <TextView
+                android:id="@+id/VfoodTypeRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/font9"
+                android:text="Food type"
+                android:textSize="25dp"
+                android:backgroundTint="#000000" />
+            <TextView
+                android:id="@+id/VmakingOrdersRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/font9"
+                android:text="Making orders"
+                android:textSize="25dp"
+                android:backgroundTint="#000000" />
+
+
+            <ImageView
+                android:id="@+id/RateRecipeImg"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/img_11" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/font7"
+                android:gravity="center"
+                android:text="Rate the recipe!"
+                android:textSize="25dp"
+                android:backgroundTint="#000000" />
+
+            <RatingBar
+                android:id="@+id/RatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:stepSize="1"
+                android:rating="0"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"/>
+
+            <Button
+                android:id="@+id/bGoFromRateR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#948B8B"
+                android:text="Return"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

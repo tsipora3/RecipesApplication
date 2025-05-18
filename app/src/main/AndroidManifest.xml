@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RecipesApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".RateSpecipicRecipe"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPeoplesSpesificRecipe"
+            android:exported="false" />
+        <activity
+            android:name=".RateRecipes"
+            android:exported="false" />
+        <activity
+            android:name=".EditSpecificRecipe"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPeoplesRecipies"
+            android:exported="false" />
+        <activity
+            android:name=".EditMyRecipe"
+            android:exported="false" />
+        <activity
+            android:name=".AboutMe"
+            android:exported="false" />
+        <activity
+            android:name=".Guide"
+            android:exported="false" />
+        <activity
+            android:name=".CreateMyRecipe"
+            android:exported="false" />
+        <activity
+            android:name=".Junction"
+            android:exported="false" />
+        <activity
+            android:name=".LogRegHello"
+            android:exported="false" />
+        <activity
+            android:name=".ContactMe"
+            android:exported="false" />
+        <activity
+            android:name=".Opening"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

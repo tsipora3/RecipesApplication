@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:id="@+id/coordinator3"
+    android:background="@drawable/img_10"
+    tools:context=".ViewPeoplesSpesificRecipe">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/ViewRTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/font2"
+                android:gravity="center_horizontal"
+                android:text="view"
+                android:textSize="35dp" />
+            <TextView
+                android:id="@+id/VlevelTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/font6"
+               android:text="Recipe level"
+                android:textSize="25dp"
+                android:backgroundTint="#000000" />
+            <TextView
+                android:id="@+id/VmakingTimeTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/font6"
+                android:text="Recipe making time "
+                android:textSize="25dp"
+                android:backgroundTint="#000000" />
+            <TextView
+                android:id="@+id/VfoodTypeTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/font6"
+                android:text="Food type"
+                android:textSize="25dp"
+                android:backgroundTint="#000000" />
+            <TextView
+                android:id="@+id/VmakingOrdersTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font6"
+                android:layout_marginBottom="30dp"
+                android:text="Making orders"
+                android:textSize="25dp"
+                android:backgroundTint="#000000" />
+            <TextView
+                android:id="@+id/VnumRatings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="Number of ratings"
+                android:fontFamily="@font/font6"
+                android:textSize="25dp"
+                android:backgroundTint="@color/black"/>
+            <TextView
+                android:id="@+id/VavgRatings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="Average ratings"
+                android:fontFamily="@font/font6"
+                android:textSize="25dp"
+                android:backgroundTint="@color/black"/>
+            <ImageView
+                android:id="@+id/vRecipeImg"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="50dp"
+                android:src="@drawable/img_11" />
+            <Button
+                android:id="@+id/bGoFromViewR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:backgroundTint="#948B8B"
+                android:text="Return"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

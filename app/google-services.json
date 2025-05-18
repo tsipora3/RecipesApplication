@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "952933201749",
+    "project_id": "recipes-application-959fa",
+    "storage_bucket": "recipes-application-959fa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952933201749:android:bd2af2d368b5f70d6521dc",
+        "android_client_info": {
+          "package_name": "adi.mashmush.recipesapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6p0dGxGzA9Av3DhEnDZOLFkRfR5jxIBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

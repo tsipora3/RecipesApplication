@@ -1,0 +1,26 @@
+User Guide – Welcome to Your Recipe World- Reciplication!
+
+Hi there! 👋
+Welcome to the ultimate cooking companion app – created with love and passion by a fellow foodie.
+After logging in or registering, you’ll be taken to the Main Menu (Junction). From here, you can easily explore everything the app has to offer. There are four main options:
+
+🍰 1. Create a New Recipe
+Feeling creative?
+Click here to add your own special recipe! Fill in the recipe name, description, ingredients, preparation time, difficulty level, and food type – and don’t forget to upload a delicious photo!
+
+👩‍🍳 2. View Recipes from Others
+Need inspiration?
+Browse a collection of mouth-watering recipes shared by other users. Explore different styles, ingredients, and flavors from the community.
+
+⭐ 3. Rate Recipes
+Help others discover the best!
+You can rate other users’ recipes to show your appreciation and help highlight the most loved dishes in the app.
+
+✏️ 4. Edit My Recipes
+Want to make changes?
+Go here to view and edit the recipes you’ve already added. Whether you're improving an old classic or fixing a typo – it’s all in your hands.
+
+Enjoy the journey and happy cooking! 🧁✨
+
+Made with love by
+Adi – Developer

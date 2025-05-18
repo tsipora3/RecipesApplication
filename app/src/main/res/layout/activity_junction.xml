@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_9"
+    android:orientation="vertical"
+    tools:context=".Junction">
+<TextView
+    android:padding="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="What would you like to do?"
+    android:textSize="25dp"
+    android:layout_gravity="center_horizontal"
+    android:fontFamily="@font/font2"
+    android:layout_marginBottom="100dp"
+    android:textColor="#866C4D"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/buttonCreate"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/baseline_local_dining_24"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_gravity="center_horizontal"
+
+             />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create my own recipe"
+                android:textColor="#F184AA"
+                android:textSize="18sp"
+                android:padding="8dp"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/buttonPeopleR"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
+            android:background="@drawable/baseline_local_cafe_24"
+            android:layout_marginLeft="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View people's recipes"
+                android:textColor="#F184AA"
+                android:textSize="18sp"
+                android:padding="8dp"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/buttonEditR"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
+            android:background="@drawable/baseline_local_pizza_24"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit my recipe"
+                android:layout_marginLeft="10dp"
+                android:textColor="#F184AA"
+                android:textSize="18sp"
+                android:padding="8dp"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+        <ImageButton
+            android:id="@+id/buttonRate"
+            android:layout_width="130dp"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            android:background="@drawable/baseline_lunch_dining_24"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate people's recipes"
+            android:textColor="#F184AA"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
+
